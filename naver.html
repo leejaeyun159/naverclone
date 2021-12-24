@@ -4,16 +4,28 @@
         <meta charset = "utf-8"/>
         <title>네이버</title>
         <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+        <link rel="stylesheet" href = "./naver.css">
     </head>
     <body>
-        <h1>
-            <a href = "https://www.naver.com">네이버</a>
-        </h1>
-        <h2>검색창</h2>
-        <fieldset>
-            <legend>검색</legend>
-            <input/>
-            <button>검색</button>
+        <header>
+            <div id="header-center"> <!--가운데 정렬용태그-->
+            <span>네이버를 시작페이지로</span>
+            <span>쥬니어 네이버</span>
+            <span>해피빈</span>
+            <div id="header-search">
+                <h1 class = "blind">
+                    <a href = "https://www.naver.com">네이버</a>
+                </h1>
+                <span class="blind">검색창</span> <!--시각장애인을 위한 요소-->
+                <fieldset>
+                    <legend class="blind">검색</legend>
+                    <input/>
+                    <button class="blind">검색</button>
+                </fieldset>
+                </div>
+            </div>
+        </header>
+        <nav>
             <ul>
                 <li>메일</li>
                 <li>카페</li>
@@ -38,26 +50,33 @@
             <input type="radio" name = "group"/>
             <br>
             <textarea></textarea>
-        </fieldset>
-        <h2>실시간검색어</h2>
-        <h3>연합뉴스</h3>
-        <ol>
-            <li>충격) 종강했는데 공부 너무 하기싫어</li>
-            <li>속보) 그만 이제 자고 싶어졌어</li>
-            <li>다음에는 얼마나 버틸 수 있을까나</li>
-        </ol>
-        <h3>언론사 목록</h3>
-        <ul>
-            <li><img src="./002.png" alt="프레시안"/></li>
-            <li><img src="./003.png" alt="뉴시스"/></li>
-            <li><img src="./011.png" alt="서울경제"/></li>
-        </ul>
-        <i>기울어짐</i>
-        <b>굵고 아름다움</b>
-        <h3>로그인</h3>
-        <h3>뉴스</h3>
-        <h3>법률</h3>
-        <h3>쇼핑</h3>
+        </nav>
+        <main>
+            <h2>실시간검색어</h2>
+            <h3>연합뉴스</h3>
+            <ol>
+                <li>충격) 종강했는데 공부 너무 하기싫어</li>
+                <li>속보) 그만 이제 자고 싶어졌어</li>
+                <li>다음에는 얼마나 버틸 수 있을까나</li>
+            </ol>
+            <h3>언론사 목록</h3>
+            <ul>
+                <li><img src="./002.png" alt="프레시안"/></li>
+                <li><img src="./003.png" alt="뉴시스"/></li>
+                <li><img src="./011.png" alt="서울경제"/></li>
+            </ul>
+            <i>기울어짐</i>
+            <b>굵고 아름다움</b>
+            <h3>로그인</h3>
+            <h3>뉴스</h3>
+            <h3>법률</h3>
+            <h3>쇼핑</h3>
+        </main>
+        <div>
+            <footer>공지사항</footer>
+            <footer>creators</footer>
+            <footer>회사소개</footer>
+        </div>
     </body>
 </html>
 <!-- 주석입니다 -->

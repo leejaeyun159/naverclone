@@ -8,11 +8,14 @@
     </head>
     <body>
         <header>
-            <div id="header-center"> <!--가운데 정렬용태그-->
-            <span>네이버를 시작페이지로</span>
-            <span>쥬니어 네이버</span>
-            <span>해피빈</span>
+            <!-- <div id="fixed">리모콘</div> -->
+            <div class="center-align"> <!--가운데 정렬용태그-->
             <div id="header-search">
+                <div id="svc-url">
+                    <a href="" id="homepage"><span>네이버를 시작페이지로<i class="homepage-icon"></i></span></a>
+                    <a href="" class="jrnaver"><span>쥬니어 네이버</span></a>
+                    <a href="" class="happybean"><span>해피빈</span></a>
+                </div>
                 <a href = "https://www.naver.com">
                     <h1>
                     네이버
@@ -29,32 +32,49 @@
                 </div>
             </div>
         </header>
-        <nav>
-            <ul>
-                <li>메일</li>
-                <li>카페</li>
-                <li>지식인</li>
-                <li>블로그</li>
-                <li>쇼핑</li>
-                <li>네이버페이</li>
-                <li>네이버쇼핑</li>
-            </ul>
-            <ol>
-                <li>메일</li>
-                <li>카페</li>
-                <li>지식인</li>
-                <li>블로그</li>
-                <li>쇼핑</li>
-                <li>네이버페이</li>
-                <li>네이버쇼핑</li>
-            </ol>
-            <input type="checkbox"/>
-            <input type="checkbox"/>
-            <input type="radio" name = "group"/>
-            <input type="radio" name = "group"/>
-            <br>
-            <textarea></textarea>
+        <nav id="nav-div">
+            <div id="nav-inner">
+            <div id="nav-group">
+            <div class="center-align">
+                <ul>
+                    <li><a href="" class="nav-g"><i class="mail-icon"></i>메일</a></li>
+                    <li><a href="" class="nav-g">카페</a></li>
+                    <li><a href="" class="nav-g">블로그</a></li>
+                    <li><a href="" class="nav-g">지식iN</a></li>
+                    <li><a href="" class="shop-nav"><span >쇼핑</span></a></li>
+                    <li><a href="" class="shopli-nav"><span >쇼핑live</span></a></li>
+                    <li><a href="" class="nav-g"><span>Pay</span></a></li>
+                    <li><a href=""class="nav-g"><i class="TV-icon"></i>TV</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">사전</a></li>
+                    <li><a href="">뉴스</a></li>
+                    <li><a href="">증권</a></li>
+                    <li><a href="">부동산</a></li>
+                    <li><a href="">지도</a></li>
+                    <li><a href="">VIBE</a></li>
+                    <li><a href="">책</a></li>
+                    <li><a href="">웹툰</a></li>
+                </ul>
+            </div>
+            </div>
+            </div>
         </nav>
+        <ol>
+            <li>메일</li>
+            <li>카페</li>                
+            <li>지식인</li>
+            <li>블로그</li>
+            <li>쇼핑</li>
+            <li>네이버페이</li>
+            <li>네이버쇼핑</li>
+        </ol>
+        <input type="checkbox"/>
+        <input type="checkbox"/>
+        <input type="radio" name = "group"/>
+        <input type="radio" name = "group"/>
+        <br>
+        <textarea></textarea>
         <main>
             <h2>실시간검색어</h2>
             <h3>연합뉴스</h3>

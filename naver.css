@@ -1,9 +1,16 @@
 *{
     box-sizing: border-box;
+
 }
-#header-center{
+body,html {
+    margin: 0;
+}
+
+#header-search{
+    position: relative;
     margin:0 auto;
     width:1130px;
+    height: 160px;
 }
 #header-search  h1{ /*자손 선택자*/
     width:222px;
@@ -18,8 +25,8 @@
     text-indent:101%;
     overflow: hidden;
     position:relative;
-    top: -3px;
-    right: -9px;
+    top: 23px;
+    right: -2px;
 }
 /* #header-search h1{ 자손 선택자
     width:222px;
@@ -27,7 +34,7 @@
 
 #header-search a{
     text-decoration: none;
-    vertical-align: middle;
+    /* vertical-align: bottom; */
 }
 
 #header-search h2{
@@ -37,10 +44,10 @@
     width:473.99px;
     height:49.97px;
     display:inline-block; /*한줄로 출력하기 위한 설정*/
-    margin-left: 20px;
+    margin-left: 20px;   
     padding: 13px 15px 13px 15px;
     border: 2px solid #03cf5d; /*hex16진수표기법*/
-    vertical-align: middle;
+    vertical-align: bottom;
     position:relative;
 }
 #header-search fieldset input{
@@ -70,7 +77,16 @@
 크기 설정을 할 수 없음*/
     margin: 14px;/*margin을 남은 공간만큼 채움*/
 }
-
+#fixed{
+    position:fixed;
+    top: 50px;
+    right: 50px;
+    display: inline-block;
+    width:100px;
+    height:100px;
+    border: 1px solid black;
+    border-radius: 50px;
+} 
 
 .blind{
     position: absolute;
@@ -79,4 +95,124 @@
     margin: -10px;
     width: 1px;
     height: 1px;
+}
+
+.center-align{
+    margin: 0 auto;
+    width: 1130px;
+}
+#nav-div{
+    position:relative;
+    box-shadow: 0 0 3px 0 rgb(0,0,0, 30%)
+}/*  박스 그림자 */
+#nav-inner{
+    position:relative;
+    width:1130px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+#nav-group{
+    position:relative;
+    padding: 11px 270px 11px 0;
+
+}
+nav ul {
+    margin:0px;
+    padding:0px;
+    list-style:none; /*앞에 점자 모양*/
+    display: inline-block;
+}
+nav li {
+    display:inline-block;
+}
+
+.mail-icon{
+    background: url("https://s.pstatic.net/static/www/img/uit/2021/sp_main_bf79fd.png") -420px -279px /444px 439px no-repeat;
+    margin: 3px 9px 0 0;
+    width:21px;
+    height:21px;
+    vertical-align: top;
+    display:inline-block;
+}
+.shop-nav{
+    background: url("https://s.pstatic.net/static/www/img/uit/2021/sp_main_bf79fd.png") -420px -232px /444px 439px no-repeat;
+    width:24px;
+    height:20px;
+    vertical-align: top;
+    display:inline-block;
+    text-indent: 101%;
+    overflow:hidden;
+    padding: 5px 0;
+}
+.shopli-nav{
+    background: url("https://s.pstatic.net/static/www/img/uit/2021/sp_main_bf79fd.png") -202px -306px /444px 439px no-repeat;
+    width:54px;
+    height:20px;
+    vertical-align: top;
+    display:inline-block;
+    text-indent: 101%;
+    overflow:hidden;
+    padding: 5px 0;
+}
+.TV-icon{
+    background: url("https://s.pstatic.net/static/www/img/uit/2021/sp_main_bf79fd.png") -256px -212px /444px 439px no-repeat;
+    margin: 9px 2px 0 0;
+    width:12px;
+    height:14px;
+    vertical-align: top;
+    display:inline-block;
+}
+
+
+li .nav-g {
+    color:#03c75a;
+}
+div ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+    color:#202020;
+}
+#svc-url{ /*검색창 상단부분*/
+    /* float:right; */
+    position: absolute;
+    top:12px;
+    right:27px;
+
+}
+#homepage{
+    float: left;
+    text-decoration: none;
+    font-size:11px;
+    color:#404040;
+}
+.homepage-icon{
+    background:url("https://s.pstatic.net/static/www/img/uit/2021/sp_main_bf79fd.png") -373px -352px /444px 439px no-repeat;
+    width:26px;
+    height: 26px;
+    display: inline-block;
+    margin: -3px 0 0 3px;
+    vertical-align: top;
+}
+.jrnaver{
+    display: inline-block;
+    width: 60px;
+    height: 10px;
+    background:url("https://s.pstatic.net/static/www/img/uit/2021/sp_main_bf79fd.png") -285px -267px /444px 439px no-repeat;    
+    margin:3px;
+    vertical-align: top;
+    text-indent: 101%;
+    overflow: hidden;
+}
+.happybean{
+    display: inline-block;
+    width: 34px;
+    height: 11px;
+    background:url("https://s.pstatic.net/static/www/img/uit/2021/sp_main_bf79fd.png") -380px -199px /444px 439px no-repeat;    
+    margin:3px 3px 2px;
+    vertical-align: top;
+    text-indent: 101%;
+    overflow: hidden;
 }

@@ -25,8 +25,8 @@ body,html {
     text-indent:101%;
     overflow: hidden;
     position:relative;
-    top: 23px;
-    right: -2px;
+    top: 26px;
+    right: 6px;
 }
 /* #header-search h1{ 자손 선택자
     width:222px;
@@ -44,7 +44,7 @@ body,html {
     width:473.99px;
     height:49.97px;
     display:inline-block; /*한줄로 출력하기 위한 설정*/
-    margin-left: 20px;   
+    margin-left: 7px;   
     padding: 13px 15px 13px 15px;
     border: 2px solid #03cf5d; /*hex16진수표기법*/
     vertical-align: bottom;
@@ -66,7 +66,7 @@ body,html {
     padding: 0;
     background-color: #03cf5d;
     position: absolute;
-    right:-2px;
+    right:-52px;
     top:-2px;
 }    
 #search-img{
@@ -174,13 +174,13 @@ div ul li a {
     font-weight: 700;
     letter-spacing: -0.3px;
     color:#202020;
+    margin-left: 5px;
 }
 #svc-url{ /*검색창 상단부분*/
     /* float:right; */
     position: absolute;
     top:12px;
     right:27px;
-
 }
 #homepage{
     float: left;
@@ -215,4 +215,127 @@ div ul li a {
     vertical-align: top;
     text-indent: 101%;
     overflow: hidden;
+}
+#bar {
+    float:left;
+    width:1px;
+    height:10px;
+    margin:3px 7px;
+    background-color:#e4e8eb;
+}
+#weather-pop{
+    position:absolute;
+    top:16px;
+    right:250px;
+}
+.search-key {
+    background: url("https://s.pstatic.net/static/www/img/uit/2021/sp_main_bf79fd.png") -322px -279px /444px 439px no-repeat;    
+    width: 20px;
+    height: 12px;
+    position: absolute;
+    top: 16px;
+    right:34px;
+    /* vertical-align: top; */
+}
+.search-history{
+    background: url("https://s.pstatic.net/static/www/img/uit/2021/sp_main_bf79fd.png") -96px -296px /444px 439px no-repeat;
+    width: 10px;
+    height: 5px;
+    position: absolute;
+    top: 19px;
+    right: 11px;
+    /* vertical-align: top; */
+}
+#more-nav{
+    text-decoration: none;
+    font-size:12px;
+    margin-left:17px;
+    line-height: 30px;
+    color:#202020;
+}
+.more-ico{
+    background: url("https://s.pstatic.net/static/www/img/uit/2021/sp_main_bf79fd.png") -83px -296px /444px 439px no-repeat;
+    height:7px;
+    width:11px;
+    position: absolute;
+    top:23px;
+    right:278px;
+    margin-left: 7px;
+}
+
+main{
+    display: inline-block;
+    width:100%;
+}
+main .center-align{
+    padding: 20px 30px; 
+    width: 1190px;
+}
+
+#main-ad {
+    display: inline-block;
+    width: 750px;
+    height: 135px;
+    background: #dae1e6;
+    vertical-align: top;
+}
+
+#main-log {
+    display: inline-block;
+    width: 350px;
+    height: 135px;
+    background: #dae1e6;
+    vertical-align: top;
+}
+
+#main-headline {
+    display: inline-block;
+    width: 750px;
+    height: 49px;
+    background: #8bc5ee;
+    vertical-align: top;
+}
+#main-financial {
+    display: inline-block;
+    width: 350px;
+    height: 49px;
+    background: #8bc5ee;
+    vertical-align: top;
+}
+#main-newslist {
+    display: inline-block;
+    width: 750px;
+    height: 318px;
+    background: #8bc5ee;
+    vertical-align: top;
+}
+
+#main-subad {
+    display: inline-block;
+    width: 350px;
+    height: 318px;
+    background: #8bc5ee;
+    vertical-align: top;
+}
+
+#main-playzn {
+    display: inline-block;
+    width: 750px;
+    height: 2000px;
+    background: #c35dff;
+    vertical-align: top;
+}
+#main-shoppingpop {
+    display: inline-block;
+    width: 350px;
+    height: 2000px;
+    background: #c35dff;
+    vertical-align: top;
+}
+#main-footad {
+    display: inline-block;
+    width: 1130px;
+    height: 135px;
+    background: #ffa631;
+    vertical-align: top;
 }

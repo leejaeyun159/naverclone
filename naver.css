@@ -225,8 +225,16 @@ nav li {
 #weather-pop{
     position:absolute;
     top:16px;
-    right:160px;
+    right:0px;
+    width:198px;
+    height:20px;
 }
+#weather-pop a{
+    text-decoration: none;
+    color:#202020;
+}
+
+
 .search-key {
     background: url("https://s.pstatic.net/static/www/img/uit/2021/sp_main_bf79fd.png") -322px -279px /444px 439px no-repeat;    
     width: 20px;
@@ -451,3 +459,44 @@ main .center-align{
     transform:translate(50%,-50%);
     color:#202020;
  }
+#weather-pop ul{
+    display: none;
+    list-style: none;
+    padding:0;
+    margin:0;
+    width: 200px;
+    height: 70px;
+    border: 0.5px solid #dae1e6;
+    background-color: #ffffff;
+    position: absolute;
+    top:-2px;
+    right:8px;
+    text-align: center;
+    z-index: 100;
+}
+#weather-pop:hover ul{
+    display:inline-block;
+}
+.pop-title{
+    display: inline-block;
+    color:#03c75a;
+
+ }
+ .pop-content{
+     display: inline-block;
+     color:#03c75a;
+ }
+ /* #z-indexex{
+    width:100px;
+    height:100px;
+    background-color: #03c75a;
+    position:absolute;
+    z-index: 30;
+}
+#z-innerex{
+    width:50px;
+    height:50px;
+    background-color: #dfff2a;
+    position:absolute;
+    z-index: 10000;
+} */

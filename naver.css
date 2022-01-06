@@ -5,7 +5,6 @@
 body,html {
     margin: 0;
 }
-
 #header-search{
     position: relative;
     margin:0 auto;
@@ -25,8 +24,8 @@ body,html {
     text-indent:101%;
     overflow: hidden;
     position:relative;
-    top: 26px;
-    right: 6px;
+    top: 27px;
+    right: 9px;
 }
 /* #header-search h1{ 자손 선택자
     width:222px;
@@ -41,10 +40,10 @@ body,html {
     display:none;
 }
 #header-search fieldset{
-    width:473.99px;
-    height:49.97px;
+    width:586px;
+    height:56px;
     display:inline-block; /*한줄로 출력하기 위한 설정*/
-    margin-left: 7px;   
+    margin: 0 0 -10px 10px;   
     padding: 13px 15px 13px 15px;
     border: 2px solid #03cf5d; /*hex16진수표기법*/
     vertical-align: bottom;
@@ -60,13 +59,13 @@ body,html {
     vertical-align: top;
 }
 #header-search fieldset button{
-    width: 49.97px;
-    height: 49.97px;
+    width: 56px;
+    height: 56px;
     border: none;
     padding: 0;
     background-color: #03cf5d;
     position: absolute;
-    right:-52px;
+    right:-2px;
     top:-2px;
 }    
 #search-img{
@@ -108,7 +107,7 @@ body,html {
 #nav-inner{
     position:relative;
     width:1130px;
-    padding: 0 30px;
+    padding: 0 30px 0 0;
     margin: 0 auto;
 }
 #nav-group{
@@ -164,10 +163,10 @@ nav li {
 }
 
 
-li .nav-g {
+#nav-group ul li .nav-g {
     color:#03c75a;
 }
-div ul li a {
+#nav-group ul li a {
     text-decoration: none;
     font-size: 15px;
     line-height: 30px;
@@ -226,15 +225,15 @@ div ul li a {
 #weather-pop{
     position:absolute;
     top:16px;
-    right:250px;
+    right:160px;
 }
 .search-key {
     background: url("https://s.pstatic.net/static/www/img/uit/2021/sp_main_bf79fd.png") -322px -279px /444px 439px no-repeat;    
     width: 20px;
     height: 12px;
     position: absolute;
-    top: 16px;
-    right:34px;
+    top: 20px;
+    right:90px;
     /* vertical-align: top; */
 }
 .search-history{
@@ -242,8 +241,8 @@ div ul li a {
     width: 10px;
     height: 5px;
     position: absolute;
-    top: 19px;
-    right: 11px;
+    top: 24px;
+    right: 68px;
     /* vertical-align: top; */
 }
 #more-nav{
@@ -272,65 +271,86 @@ main .center-align{
     width: 1190px;
 }
 
+.main-divinline{
+    display:inline-block;
+    width:100%;
+    vertical-align: top;
+}
+
 #main-ad {
-    display: inline-block;
     width: 750px;
     height: 135px;
     background: #dae1e6;
     vertical-align: top;
+    float:left;/*간격을 붙이기위함 */ 
 }
 
 #main-log {
-    display: inline-block;
-    width: 350px;
+    width: 348px;
     height: 135px;
-    background: #dae1e6;
+    /* background: #dae1e6; */
     vertical-align: top;
+    float:left;/*간격을 붙이기위함 */
+    margin: 0 0 12px 32px; /*레이아웃 경계나누기*/
+    border:1px solid #dae1e6;
 }
 
 #main-headline {
-    display: inline-block;
     width: 750px;
     height: 49px;
-    background: #8bc5ee;
+    /* background: #8bc5ee; */
     vertical-align: top;
+    float:left;/*간격을 붙이기위함 */
+    border:1px solid #dae1e6;
 }
 #main-financial {
-    display: inline-block;
-    width: 350px;
+    width: 348px;
     height: 49px;
-    background: #8bc5ee;
+    /* background: #8bc5ee; */
     vertical-align: top;
+    float:left;/*간격을 붙이기위함 */
+    margin: 0 0 12px 32px; /*레이아웃 경계나누기*/
+    border:1px solid #dae1e6;
+}
+#main-newstitle{
+    width:750px;
+    height:18px;
+    /* background: #8bc5ee; */
+    vertical-align: top;
+    float:left;
+    margin: 22px 0 16px 0;    
+    position:relative;
 }
 #main-newslist {
-    display: inline-block;
     width: 750px;
-    height: 318px;
-    background: #8bc5ee;
+    height: 260px;
+    /* background: #8bc5ee; */
     vertical-align: top;
+    float:left;/*간격을 붙이기위함 */
 }
-
 #main-subad {
-    display: inline-block;
-    width: 350px;
-    height: 318px;
-    background: #8bc5ee;
+    width: 348px;
+    height: 200px;
+    /* background: #8bc5ee; */
     vertical-align: top;
+    float:left;/*간격을 붙이기위함 */
+    margin: 0 0 15px 32px; /*레이아웃 경계나누기*/
 }
 
 #main-playzn {
-    display: inline-block;
     width: 750px;
     height: 2000px;
-    background: #c35dff;
+    /* background: #c35dff; */
     vertical-align: top;
+    float:left;/*간격을 붙이기위함 */
 }
 #main-shoppingpop {
-    display: inline-block;
-    width: 350px;
-    height: 2000px;
-    background: #c35dff;
+    width: 348px;
+    height: 2089px;
+    /* background: #c35dff; */
     vertical-align: top;
+    float:left;/*간격을 붙이기위함 */
+    margin: 0 0 14px 32px; /*레이아웃 경계나누기*/
 }
 #main-footad {
     display: inline-block;
@@ -339,3 +359,95 @@ main .center-align{
     background: #ffa631;
     vertical-align: top;
 }
+#main-newdiv{
+    width:750px;
+    vertical-align: top;
+    float:left;
+}
+#main-sideaddiv{
+    width:380px;
+    vertical-align: top;
+    float:left;
+}
+
+#main-headline h5, #main-headline ol{
+    display:inline-block;
+    /*여기서 부터는 세부맞춰주기 위한 속성*/
+    vertical-align: top;
+    margin:14px 10px;
+    font-size:12px;
+    padding:0;
+}
+.news-ico{
+    background: url("https://s.pstatic.net/static/www/img/uit/2021/sp_main_bf79fd.png") 0px -396px /444px 439px no-repeat;
+    width: 27px;
+    height: 24px; 
+    position: absolute;
+    top:-4px;
+    right:720px;
+}
+#main-newstitle h5{
+    display:inline-block;
+    /*여기서 부터는 세부맞춰주기 위한 속성*/
+    margin:0 0 0 24px;
+}
+#main-newslist ul{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+#main-newslist li{
+    float:left;
+    width:calc(750px / 6);
+    height:65px;
+    border:0.5px solid #e6eef3;
+    position:relative; /*정렬을 위한 position*/
+}
+#main-newslist img{
+    height: 20px;
+    position:absolute;
+    /*세로 중간맞춤*/
+    right:50%;/*li의 세로의 반절만큼 이동*/
+    /*가로 중간맞춤*/
+    top:50%;/*li의 가로의 반절만큼 이동*/
+    transform: translate(50%,-50%);
+    /*img자신의 가로세로 반절만큼 이동*/
+}
+#main-financial h5{
+    display: inline-block;
+    margin: 14px ;
+    padding:0;
+}
+
+#main-playzn h4 {
+    display: inline-block;
+    margin: 35px 15px 27px 0px;
+    padding:0;
+}
+
+#main-playzn ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+    display:inline-block;
+    width:100%;
+}
+#main-playzn li{
+    font-size: 13px;
+    float:left;
+    height:49px;
+    width:calc(750px / 8);
+    border:1px solid #dae1e6;
+    position:relative;
+}
+#main-playzn a{
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    position:absolute;
+    top:50%;
+    right:50%;
+    transform:translate(50%,-50%);
+    color:#202020;
+ }

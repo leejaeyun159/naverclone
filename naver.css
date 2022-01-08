@@ -301,6 +301,8 @@ main .center-align{
     float:left;/*간격을 붙이기위함 */
     margin: 0 0 12px 32px; /*레이아웃 경계나누기*/
     border:1px solid #dae1e6;
+    padding: 16px 16px 12px 17px;
+    background-color: #f7f9fa;
 }
 
 #main-headline {
@@ -335,6 +337,10 @@ main .center-align{
     /* background: #8bc5ee; */
     vertical-align: top;
     float:left;/*간격을 붙이기위함 */
+}
+#main-newslist img{
+    position:absolute;
+    z-index:1;
 }
 #main-subad {
     width: 348px;
@@ -397,7 +403,7 @@ main .center-align{
 #main-newstitle h5{
     display:inline-block;
     /*여기서 부터는 세부맞춰주기 위한 속성*/
-    margin:0 0 0 24px;
+    margin:0 0 0 30px;
 }
 #main-newslist ul{
     margin:0;
@@ -446,18 +452,20 @@ main .center-align{
     float:left;
     height:49px;
     width:calc(750px / 8);
-    border:1px solid #dae1e6;
+    /* border:1px solid #dae1e6; */
     position:relative;
 }
-#main-playzn a{
-    padding:0;
-    margin:0;
-    text-decoration: none;
-    position:absolute;
-    top:50%;
-    right:50%;
-    transform:translate(50%,-50%);
+#main-playzn button{
+    width:100%;
+    height:100%;
     color:#202020;
+    background-color: #f7f9fa;
+    border:1px solid #dae1e6;
+ }
+ #main-playzn button:hover{
+    background-color: #03c75a;
+    color:#ffffff;
+    border:none;
  }
 #weather-pop ul{
     display: none;
@@ -500,3 +508,75 @@ main .center-align{
     position:absolute;
     z-index: 10000;
 } */
+
+#main-log span{
+    font-size: 12px;
+    color:#808080;
+}
+#log-btnborder{
+    width:315px;
+    height:48px;
+    background-color:#19ce60;
+    border: 1px solid #15c654;
+    /* text-align: center; */
+    text-align: center;    
+    padding:15px 0 ;
+    margin: 11px 0 0 0;
+}
+
+#login-btn h5{
+    display: inline-block;
+    vertical-align: top;
+    color: #ffffff;
+    margin: 0;
+    padding:0;
+}
+#naver-whtico{
+    background: url("https://s.pstatic.net/static/www/img/uit/2021/sp_main_bf79fd.png") -238px -279px /444px 439px no-repeat;
+    display: inline-block;
+    vertical-align: top;
+    width: 60px;
+    height: 12px;
+    margin: 2px 5px 0 0;
+}
+#register{
+    float:right;
+    margin:14px 8px 0 0;
+    font-size: 12px;
+    text-decoration: none;
+    color:#808080
+}
+#register:hover{
+    text-decoration: underline;
+}
+li:hover .new-subsee{
+    display:inline-block;
+}
+.new-subsee{
+    display:none;
+    text-align:center;
+    margin:16px auto ;
+    position:absolute;
+    right:7px;
+    z-index:2;
+}
+.new-sub{
+    display: inline-block;
+    border: 1px solid #dae1e6;
+    background-color: #ffffff;
+    font-size: 12px;
+    padding: 7px 8px 5px 8px;
+    vertical-align: top;
+    text-decoration: none;
+    color:#808080;
+}
+.new-see{
+    display: inline-block;
+    border: 1px solid #dae1e6;
+    background-color: #ffffff;
+    font-size: 12px;
+    padding: 7px 8px 5px 8px;
+    vertical-align: top;
+    text-decoration: none;
+    color:#808080;
+}
